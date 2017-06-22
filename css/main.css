@@ -14,39 +14,39 @@ body {
   width: 100%;
 }
 
-header .home {
-width: 20%;
-float: left
-}
-header .brand {
-  width: 20%;
-}
-
-
-
 .phones {
 width: 30%;
 float: left
 }
 
-
-
 .right-column {
-  width: 40%;
+  width: 10%;
   float: right;
+  display: inline;
+  padding-top: 2%;
+
 }
-
-
 
 
 .google, .apple {
   float: left;
-  display:inline-block;
+  display:block;
+  padding-top: 30%;
+  padding-left: 1%;
+  margin-left: 15%;
 
+}
+
+.apple{
+padding-left: 5%;
+}
+.google {
+margin-left: 5%;
 }
 
 li {
 display: inline;
+padding: 7px;
 }
 
 footer {
@@ -54,13 +54,14 @@ color: #1c5380;
 position: absolute;
 bottom: 0;
 text-align: center;
-display: inline;
+display: block;
 font-weight: bold;
-margin-left: -20%;
+margin-left: 20%;
 }
 
 ul {
   float: right;
+
 }
 
 #copyright {
@@ -70,19 +71,36 @@ ul {
 }
 
 h2 {
-  font-size: 16px;
+  font-size: 18px;
+  color: red;
+  position: relative;
+  left: 40%;
+  font-weight: bold;
   color: #1c5380;
-
 }
 
 .container {
 width: 80%;
 margin: auto;
 margin-top: 40px;
+padding-bottom: 110px;
+}
 
+.marketing-box  {
+  position: absolute;
+  z-index: 1000;
+  left: 40%;
 }
 .frame {
-position: absolute;
-left: 50%;
+  position: absolute;
+  left: 25%;
+}
+.marketing-box p {
+  position: absolute;
+  left: 40%;
+  width: 100%;
+}
 
+.img-logo {
+  padding-left: 50%;
 }
